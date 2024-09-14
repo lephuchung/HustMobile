@@ -1,9 +1,9 @@
 fun main(args: Array<String>) {
     println("Hello World!")
     println("Program arguments: ${args.joinToString()}")
-//    Lesson1p2()
-//    Lesson1p3()
-//    Lesson1p4()
+    Lesson1p2()
+    Lesson1p3()
+    Lesson1p4()
     Lesson1p5()
 }
 
