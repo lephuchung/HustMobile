@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question2Fragment">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="344dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="80dp"
+        android:text="Question 2: What is the capital of France?"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/option_1_button"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="48dp"
+        android:text="Option 1: London"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question_text_view" />
+
+    <Button
+        android:id="@+id/option_2_button"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="52dp"
+        android:text="Option 2: Paris"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option_1_button" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/submit_button"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="40dp"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/option_3_button"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="52dp"
+        android:text="Option 3: Madrid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option_2_button" />
+
+    <Button
+        android:id="@+id/option_4_button"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="52dp"
+        android:text="Option 4: Berlin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option_3_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
